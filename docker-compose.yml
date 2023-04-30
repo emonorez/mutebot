@@ -1,0 +1,6 @@
+version: '3'
+services:
+  mutebot:
+    build: .
+    container_name: mutebot
+    restart: always
