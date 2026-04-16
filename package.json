@@ -1,27 +1,24 @@
 {
   "name": "mutebot",
-  "version": "2.0.0",
-  "description": "A discord bot to gather votes and mute an user.",
+  "version": "3.0.0",
+  "description": "A Discord bot that lets the community vote to mute a user.",
+  "type": "module",
   "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
   "author": "ZeroNoMe",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "^13.2.0",
-    "keyv": "^4.5.0",
-    "nodemon": "^2.0.22"
-  },
-  "scripts": {
-    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+    "@keyv/sqlite": "^4.0.8",
+    "discord.js": "^14.26.3",
+    "keyv": "^5.6.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/emonorez/mutebot.git"
   },
-  "keywords": [
-    "mute",
-    "bot",
-    "discord"
-  ],
+  "keywords": ["mute", "bot", "discord"],
   "bugs": {
     "url": "https://github.com/emonorez/mutebot/issues"
   },
